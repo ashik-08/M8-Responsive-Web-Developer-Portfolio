@@ -1,0 +1,264 @@
+/* Developed by Ashikur Rahman, CSE, DIU */
+
+/* common shared styles */
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.btn-primary {
+  border-radius: 5px;
+  background: #fd6e0a;
+  border: 0;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 18px;
+}
+.btn-contact {
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 18px 24px;
+  background: #fff8f3;
+  border: 1px solid #fd6e0a;
+  color: #fd6e0a;
+  margin-left: 30px;
+}
+
+/* nav related styles */
+nav {
+  width: 76%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+}
+.nav-title {
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
+}
+nav > ul {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+nav li {
+  list-style: none;
+}
+nav a {
+  text-decoration: none;
+  color: #474747;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* header related styles */
+.header {
+  background-color: #fff8f3;
+  background-image: url("../images/header_bg.png"),
+    url("../images/developer.png");
+  background-repeat: no-repeat;
+  background-position: bottom right, 4% 50%;
+}
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner-content {
+  /* margin-left: 230px; */
+  margin-left: 12%;
+}
+.banner .pro-pic {
+  padding-top: 50px;
+  padding-right: 30px;
+}
+.banner-greet {
+  color: #474747;
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.banner-heading {
+  color: #181818;
+  font-size: 85px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.banner-para {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+/* main section styles */
+main {
+  width: 76%;
+  margin: 0 auto;
+}
+main section {
+  margin-top: 130px;
+}
+
+/* about section styles */
+.about {
+  border-radius: 10px;
+  background: #fff8f3;
+  text-align: center;
+  padding: 130px 0px;
+}
+.about-info-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.section-title {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.section-des {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+.info-title {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.info-description {
+  color: #474747;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+/* what i do related styles */
+.skills-container {
+  display: flex;
+  justify-content: space-between;
+}
+.skill {
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  margin-top: 20px;
+}
+.skill img {
+  padding: 30px;
+}
+.skill-title {
+  color: #181818;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 0px 0px 25px 30px;
+}
+.skill-des {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  max-width: 230px;
+  padding: 0px 40px 30px 30px; /* T LR B */
+}
+
+/* Resume section styles */
+.resume-col-title {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 113px;
+}
+.resume-container {
+  display: flex;
+  justify-content: space-between;
+}
+.resume-item-title {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 30px;
+}
+.resume-item-institute {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.resume-item-des {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 20px 0px 30px;
+}
+.resume-container hr {
+  background: #d1d1d1;
+  width: 560px;
+}
+.download-cv-btn {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 113px;
+}
+
+/* footer styles */
+footer {
+  background: #fff8f3;
+}
+.footer-contact {
+  width: 76%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 130px 0px;
+}
+.social-links {
+  display: flex;
+  gap: 25px;
+}
+.contact input[type="text"],
+input[type="email"],
+textarea {
+  display: block;
+  margin-bottom: 25px;
+  padding: 20px 30px;
+  border-radius: 5px;
+  border: 0;
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 460px;
+}
+.col-title {
+  color: #181818;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+.col-des {
+  color: #474747;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+.copyright {
+  color: #757575;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+}

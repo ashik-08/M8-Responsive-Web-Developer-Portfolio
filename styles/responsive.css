@@ -1,0 +1,227 @@
+/* Responsive styles */
+
+/* Small devices */
+
+@media screen and (max-width: 640px) {
+  .btn-contact {
+    margin-left: 0px;
+  }
+
+  /* nav related styles */
+  nav {
+    flex-direction: column;
+    gap: 50px;
+  }
+  nav > ul {
+    flex-direction: column;
+  }
+
+  /* header related styles */
+  .banner {
+    text-align: center;
+    flex-direction: column;
+  }
+  .banner-content {
+    margin-left: 0%;
+    margin-top: 50px;
+  }
+  .banner .pro-pic {
+    width: 100%;
+  }
+
+  /* main section styles */
+  main {
+    width: 80%;
+  }
+
+  /* about section styles */
+  .about {
+    padding: 130px 10px;
+  }
+  .about-info-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  /* what i do related styles */
+  .skills-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Resume section styles */
+  .resume-container {
+    flex-direction: column;
+  }
+  .resume-container hr {
+    width: 250px;
+  }
+
+  /* footer styles */
+  .footer-contact {
+    width: 80%;
+    flex-direction: column;
+  }
+  .social-links {
+    margin-bottom: 50px;
+  }
+  .contact input[type="text"],
+  input[type="email"],
+  textarea {
+    max-width: 200px;
+  }
+}
+
+/* Medium devices */
+
+@media screen and (min-width: 640px) and (max-width: 1024px) {
+  /* nav related styles */
+  nav {
+    width: 80%;
+  }
+
+  /* header related styles */
+  .header {
+    background-position: bottom center, 2% 50%;
+  }
+  .banner {
+    text-align: center;
+    flex-direction: column;
+  }
+  .banner-content {
+    margin-left: 0%;
+    margin-top: 50px;
+  }
+  .banner .pro-pic {
+    padding-right: 0px;
+  }
+
+  /* main section styles */
+  main {
+    width: 80%;
+  }
+
+  /* about section styles */
+  .about {
+    padding: 130px 20px;
+  }
+
+  /* what i do related styles */
+  .skills-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  /* Resume section styles */
+  .resume-container {
+    flex-direction: column;
+  }
+  .resume-container hr {
+    width: 500px;
+  }
+
+  /* footer styles */
+  .footer-contact {
+    width: 80%;
+    flex-direction: column;
+  }
+  .social-links {
+    margin-bottom: 50px;
+  }
+}
+
+/* Large devices */
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  /* nav related styles */
+  nav {
+    width: 80%;
+  }
+
+  /* header related styles */
+  .header {
+    background-position: bottom right, 1% 50%;
+  }
+  .banner-content {
+    margin-left: 10%;
+  }
+  .banner .pro-pic {
+    padding-right: 0px;
+  }
+
+  /* main section styles */
+  main {
+    width: 80%;
+  }
+
+  /* about section styles */
+  .about {
+    padding: 130px 20px;
+  }
+
+  /* what i do related styles */
+  .skills-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  /* Resume section styles */
+  .resume-container {
+    flex-direction: column;
+  }
+  .resume-container hr {
+    width: 500px;
+  }
+
+  /* footer styles */
+  .footer-contact {
+    width: 80%;
+    flex-direction: column;
+  }
+  .social-links {
+    margin-bottom: 50px;
+  }
+}
+
+/* Extra large devices */
+
+@media screen and (min-width: 1280px) and (max-width: 1536px) {
+  /* nav related styles */
+  nav {
+    width: 80%;
+  }
+
+  /* header related styles */
+  .header {
+    background-position: bottom right, 2% 50%;
+  }
+  .banner-content {
+    margin-left: 10%;
+  }
+  .banner .pro-pic {
+    padding-right: 0px;
+  }
+
+  /* main section styles */
+  main {
+    width: 80%;
+  }
+
+  /* what i do related styles */
+  .skills-container {
+    gap: 20px;
+  }
+
+  /* Resume section styles */
+  .resume-container hr {
+    width: 500px;
+  }
+
+  /* footer styles */
+  .footer-contact {
+    width: 80%;
+    /* gap: 50px; */
+  }
+}
