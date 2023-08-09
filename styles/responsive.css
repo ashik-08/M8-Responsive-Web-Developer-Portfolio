@@ -74,7 +74,7 @@
 
 /* Medium devices */
 
-@media screen and (min-width: 640px) and (max-width: 1024px) {
+@media screen and (min-width: 640px) and (max-width: 1023px) {
   /* nav related styles */
   nav {
     width: 80%;
@@ -187,7 +187,7 @@
 
 /* Extra large devices */
 
-@media screen and (min-width: 1280px) and (max-width: 1536px) {
+@media screen and (min-width: 1281px) and (max-width: 1536px) {
   /* nav related styles */
   nav {
     width: 80%;
